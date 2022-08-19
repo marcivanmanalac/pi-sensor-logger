@@ -3,12 +3,12 @@
 This script is compatible with python3
 
 Steps to setup:
-  pip3 install serial
-  plug in sensor into pi
-  observe device name upon inserting using --> ls -l /dev/tty*
-  edit with editor of choice loggy.py
-    edit file path
-    edit serial connection settings based on sensor requirements(baudrate, etc)
+  1. pip3 install serial
+  2. plug in sensor into pi
+  3. observe device name upon inserting using --> ls -l /dev/tty*
+  4. edit with editor of choice loggy.py
+    a. edit file path
+    b. edit serial connection settings based on sensor requirements(baudrate, etc)
     
     
       
