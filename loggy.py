@@ -16,7 +16,7 @@ from os.path import exists
 ########Naming and creating file for Sensor Log################
 dt =  str(datetime.datetime.now().strftime("%Y_%m_%d_%H_%M_%S"))
 filename = 'SENSOR_SAMPLE' + dt +'.txt'
-f = open('PATH/TO/FILE'+filename , 'w')
+f = open('~/sensor_logs' + filename , 'w')
 
 # Set Up Serial Port for the sensor
 # Ensure you are using the correct header name in '/dev' which the component is plugged in to. 
